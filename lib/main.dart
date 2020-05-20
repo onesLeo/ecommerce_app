@@ -1,3 +1,4 @@
+import 'package:ecommerceapp/screens/product_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -46,7 +47,8 @@ class MyApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'Ecommerce App Homepage'),
+//      home: MyHomePage(title: 'Ecommerce App Homepage'),
+      home: ProductPage(),
     );
   }
 }
